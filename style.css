@@ -1,0 +1,82 @@
+body {
+    text-align: center;
+}
+
+.pic {
+    width: 175px;
+    margin-bottom: 50px;
+    border-radius: 50%;
+}
+
+#welcome {
+    color: black;
+    opacity: 0.83;
+    bottom: 0;
+    background: linear-gradient(#00ffbf 0%, #bfff00 100%);
+    display: table;
+    width: 100%;
+    height: 100%;
+    z-index: 9;
+}
+
+h1 {
+    font-size: 40px;
+    line-height: 1.2;
+    font-family: 'Lato', sans-serif;
+    font-weight: 300;
+}
+
+#name {
+    font-size: 30px;
+    line-height: 1.2;
+    font-family: cursive;
+}
+
+h2 {
+    font-size: 30px;
+    font-weight: 300;
+    line-height: 1.2;
+    font-family: monospace;
+}
+
+#bio {
+    padding: 50px;
+    text-align: center;
+    font-size: 42px;
+}
+
+.line {
+    height: 6px;
+    background-color: #000;
+    width: 70px;
+    margin: 8px auto;
+    margin-bottom: 20px;
+}
+
+p {
+    max-width: 450px;
+    margin: 25px auto;
+    font-size: 17px;
+    line-height: 1.2;
+}
+.items {
+    float: left;
+    color: darkviolet;
+    font-size: 25px;
+    padding-left: 9px;
+    padding-right: 9px;
+    }
+
+.items:hover{
+    background-color: crimson; 
+}
+
+.article:hover{
+    color: aqua;
+}
+
+.mynavbar{
+    position: sticky;
+    top: 0;
+    z-index: 999999999999;
+}
